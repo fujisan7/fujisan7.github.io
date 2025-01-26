@@ -33,11 +33,11 @@ body, h1, p {
     
     header {
     width: 744px;
-    background-color: #DCDCDC;
+    background-color: #339933;
     }
     
     div#content {
-    background-color: #2ca8e2;
+    background-color: #99cc33;
     width: 760px;
     overflow: hidden;
     }
