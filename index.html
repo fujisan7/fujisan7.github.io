@@ -1,3 +1,8 @@
+
+<head>
+    <title>torituna</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
 <body>
 
     <!--#include file="header.html" -->
@@ -18,12 +23,14 @@
     
     <nav>
     
-    <!--#include file="選択.html"-->
-
+        <div class="common_sentaku"></div>
     </nav>
     
     </div>
-    
-    
+    <script>
+    $(document).ready(function(){
+        $(".common_sentaku").load("選択/選択.html");
+        });
+    </script>
     
     </body>
