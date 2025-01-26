@@ -1,11 +1,12 @@
 
 <head>
     <title>torituna</title>
+    <link href="index.css" rel="stylesheet" type="text/css" media="all">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 
-    <!--#include file="header.html" -->
+    <div class="common_huzi"></div>
     
     <div id="content">
     
@@ -27,10 +28,21 @@
     </nav>
     
     </div>
+    <div class="common_isi"></div>
     <script>
     $(document).ready(function(){
         $(".common_sentaku").load("選択/選択.html");
         });
     </script>
+    <script>
+        $(document).ready(function(){
+            $(".common_fuzi").load("ヘッター/header.html");
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $(".common_isi").load("フッター/footer.html");
+                });
+            </script>
     
     </body>
