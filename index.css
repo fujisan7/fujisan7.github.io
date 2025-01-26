@@ -33,11 +33,11 @@ body, h1, p {
     
     header {
     width: 744px;
-    background-color: #339933;
+    background-color: #DCDCDC;
     }
     
     div#content {
-    background-color: #99cc33;
+    background-color: #2ca8e2;
     width: 760px;
     overflow: hidden;
     }
@@ -57,7 +57,7 @@ body, h1, p {
     
     a.btn {
         display: block;
-        width: 122px;
+        width: 50px;
         padding: 8px;
         text-align: center;
         border-top: 5px solid #DCDCDC;
