@@ -3,6 +3,9 @@ body, h1, p {
     padding: 0;
     }
     
+    body {
+    background-color: #eeffaa;
+    }
     h1 {
     color: #ffffff;
     }
@@ -24,31 +27,36 @@ body, h1, p {
     padding: 8px;
     }
     
+    header, div#content, footer {
+    margin: 0 auto;
+    }
+    
     header {
-    background-color: #979b97;
+    width: 744px;
+    background-color: #339933;
     }
     
     div#content {
-    background-color: #33cccc;
+    background-color: #99cc33;
     width: 760px;
     overflow: hidden;
     }
     
     div#main {
-    background-color: #e4e2e2;
-    width: 500px;
+    background-color: #ffffff;
+    width: 584px;
     float: right;
     }
     
     nav {
     color: #339933;
-    background-color: #33cccc;
+    background-color: #99cc33;
     width: 144px;
     float: left;
     }
     
     nav a:link {
-    color: #2f0000;
+    color: #ffffff;
     }
     
     nav a:visited {
@@ -64,6 +72,7 @@ body, h1, p {
     }
     
     footer {
-    color: #e4e2e2;
-    background-color: #979b97;
+    width: 744px;
+    color: #ffffff;
+    background-color: #339933;
     }
