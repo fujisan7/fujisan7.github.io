@@ -1,6 +1,6 @@
 <body>
 
-    <!--#include file="header.html" -->
+    <?php include "header.html" ?>　
     
     <div id="content">
     
